@@ -35,7 +35,8 @@
         [self.wifiLabel setText:@"OK"];
         [self.wifiLabel setTextColor:[UIColor greenColor]];
     } else if (status == ReachableViaWWAN) {
-        NSLog(@"3G");
+        [self.wifiLabel setText:@"NO ANDA"];
+        [self.wifiLabel setTextColor:[UIColor redColor]];
     }
 }
 
