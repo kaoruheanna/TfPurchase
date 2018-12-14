@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		585C184E21C4164200C7BA14 /* WifiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C184D21C4164200C7BA14 /* WifiViewController.m */; };
+		585C185121C41D7800C7BA14 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C185021C41D7800C7BA14 /* Reachability.m */; };
 		587D8E2F21C3F866002906A7 /* ModelCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D8E2E21C3F866002906A7 /* ModelCheckViewController.m */; };
 		58C456E121C3EBDE001AF5A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C456E021C3EBDE001AF5A3 /* AppDelegate.m */; };
 		58C456E421C3EBDE001AF5A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C456E321C3EBDE001AF5A3 /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		585C184C21C4164200C7BA14 /* WifiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifiViewController.h; sourceTree = "<group>"; };
+		585C184D21C4164200C7BA14 /* WifiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiViewController.m; sourceTree = "<group>"; };
+		585C184F21C41D7700C7BA14 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../Downloads/Reachability/Reachability/Reachability.h; sourceTree = "<group>"; };
+		585C185021C41D7800C7BA14 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../Downloads/Reachability/Reachability/Reachability.m; sourceTree = "<group>"; };
 		587D8E2D21C3F866002906A7 /* ModelCheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelCheckViewController.h; sourceTree = "<group>"; };
 		587D8E2E21C3F866002906A7 /* ModelCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelCheckViewController.m; sourceTree = "<group>"; };
 		58C456DC21C3EBDE001AF5A3 /* TfPurchase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TfPurchase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +67,8 @@
 		58C456DE21C3EBDE001AF5A3 /* TfPurchase */ = {
 			isa = PBXGroup;
 			children = (
+				585C184F21C41D7700C7BA14 /* Reachability.h */,
+				585C185021C41D7800C7BA14 /* Reachability.m */,
 				58C456DF21C3EBDE001AF5A3 /* AppDelegate.h */,
 				58C456E021C3EBDE001AF5A3 /* AppDelegate.m */,
 				58C456E221C3EBDE001AF5A3 /* ViewController.h */,
@@ -72,6 +80,8 @@
 				58C456EE21C3EBDE001AF5A3 /* main.m */,
 				587D8E2D21C3F866002906A7 /* ModelCheckViewController.h */,
 				587D8E2E21C3F866002906A7 /* ModelCheckViewController.m */,
+				585C184C21C4164200C7BA14 /* WifiViewController.h */,
+				585C184D21C4164200C7BA14 /* WifiViewController.m */,
 			);
 			path = TfPurchase;
 			sourceTree = "<group>";
@@ -147,9 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585C184E21C4164200C7BA14 /* WifiViewController.m in Sources */,
 				58C456E421C3EBDE001AF5A3 /* ViewController.m in Sources */,
 				58C456EF21C3EBDE001AF5A3 /* main.m in Sources */,
 				58C456E121C3EBDE001AF5A3 /* AppDelegate.m in Sources */,
+				585C185121C41D7800C7BA14 /* Reachability.m in Sources */,
 				587D8E2F21C3F866002906A7 /* ModelCheckViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
