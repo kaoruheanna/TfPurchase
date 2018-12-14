@@ -34,9 +34,6 @@
 
 - (void)updateBatteryState {
     UIDevice *device = [UIDevice currentDevice];
-    NSLog(@"battery level: %f", [device batteryLevel]);
-    NSLog(@"battery state: %d", [device batteryState]);
-    
     int batteryLevel = [device batteryLevel] * 100;
     [self.batteryLevelLabel setText:[NSString stringWithFormat:@"%d%%", batteryLevel]];
     
