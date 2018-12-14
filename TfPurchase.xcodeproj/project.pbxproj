@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		587D8E2F21C3F866002906A7 /* ModelCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D8E2E21C3F866002906A7 /* ModelCheckViewController.m */; };
 		58C456E121C3EBDE001AF5A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C456E021C3EBDE001AF5A3 /* AppDelegate.m */; };
 		58C456E421C3EBDE001AF5A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C456E321C3EBDE001AF5A3 /* ViewController.m */; };
 		58C456E721C3EBDE001AF5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C456E521C3EBDE001AF5A3 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		587D8E2D21C3F866002906A7 /* ModelCheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelCheckViewController.h; sourceTree = "<group>"; };
+		587D8E2E21C3F866002906A7 /* ModelCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelCheckViewController.m; sourceTree = "<group>"; };
 		58C456DC21C3EBDE001AF5A3 /* TfPurchase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TfPurchase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C456DF21C3EBDE001AF5A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58C456E021C3EBDE001AF5A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				58C456EA21C3EBDE001AF5A3 /* LaunchScreen.storyboard */,
 				58C456ED21C3EBDE001AF5A3 /* Info.plist */,
 				58C456EE21C3EBDE001AF5A3 /* main.m */,
+				587D8E2D21C3F866002906A7 /* ModelCheckViewController.h */,
+				587D8E2E21C3F866002906A7 /* ModelCheckViewController.m */,
 			);
 			path = TfPurchase;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				58C456E421C3EBDE001AF5A3 /* ViewController.m in Sources */,
 				58C456EF21C3EBDE001AF5A3 /* main.m in Sources */,
 				58C456E121C3EBDE001AF5A3 /* AppDelegate.m in Sources */,
+				587D8E2F21C3F866002906A7 /* ModelCheckViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
