@@ -37,9 +37,17 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86c-oS-7nn">
                                 <rect key="frame" x="48" y="269" width="122" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Botones"/>
+                                <state key="normal" title="Botones Volumen"/>
                                 <connections>
                                     <segue destination="SIV-9z-xQD" kind="show" id="aLb-zZ-cor"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmS-UV-3c6">
+                                <rect key="frame" x="69" y="327" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Finger Print"/>
+                                <connections>
+                                    <segue destination="4t5-3z-YMS" kind="show" id="Eyp-PU-2Ew"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,6 +59,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="364" y="30.134932533733135"/>
+        </scene>
+        <!--Fingerprint View Controller-->
+        <scene sceneID="fws-K8-Pax">
+            <objects>
+                <viewController id="4t5-3z-YMS" customClass="FingerprintViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="64P-Ea-sve">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Finger Print" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5M-MI-74p">
+                                <rect key="frame" x="44" y="85" width="89" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5x-ZB-exW">
+                                <rect key="frame" x="44" y="169" width="82" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Check"/>
+                                <connections>
+                                    <action selector="checkButtonPressed:" destination="4t5-3z-YMS" eventType="touchUpInside" id="bkt-ts-ya8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="q7z-Ve-Ccb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hvd-Vk-FbE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1376.8" y="-689.5052473763119"/>
         </scene>
         <!--Model Check View Controller-->
         <scene sceneID="frk-5q-BIs">
