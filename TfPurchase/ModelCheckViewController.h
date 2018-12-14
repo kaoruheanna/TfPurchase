@@ -10,6 +10,7 @@
 
 @interface ModelCheckViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *model;
+@property (weak, nonatomic) IBOutlet UILabel *modelLabel;
+@property (weak, nonatomic) IBOutlet UILabel *storageLabel;
 
 @end

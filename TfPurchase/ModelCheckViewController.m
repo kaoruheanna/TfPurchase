@@ -31,6 +31,7 @@
     NSLog(@"Estoy en viewDidAppear de ModelCheckViewController");
     
     [self updateDeviceName];
+    [self updateDiskSpace];
 }
 
 - (void)updateDeviceName {
@@ -42,7 +43,7 @@
     NSLog(@"platform: %@", platform);
     NSLog(@"deviceName: %@", deviceName);
     
-    [self.model setText:deviceName];
+    [self.modelLabel setText:deviceName];
     
 //    NSString *model = [UIDevice currentDevice].model;
 //    NSLog(@"model: %@", model);
@@ -152,6 +153,25 @@
     
     return platform;
 }
+
+
+-(void)updateDiskSpace {
+    uint64_t totalSpace = 0;
+    NSError *error = nil;
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSDictionary *dictionary = [[NSFileManager defaultManager] attributesOfFileSystemForPath:[paths lastObject] error: &error];
+    
+    if (dictionary) {
+        NSNumber *fileSystemSizeInBytes = [dictionary objectForKey: NSFileSystemSize];
+        totalSpace = [fileSystemSizeInBytes unsignedLongLongValue];
+        float gbFactor = 1000.0f * 1000.0f * 1000.0f;
+        int storageGB = (int)ceil(totalSpace / gbFactor);
+        [self.storageLabel setText:[NSString stringWithFormat:@"%d GB", storageGB]];
+    } else {
+        NSLog(@"Error Obtaining System Memory Info: Domain = %@, Code = %ld", [error domain], (long)[error code]);
+    }
+}
+
 /*
 #pragma mark - Navigation
 
