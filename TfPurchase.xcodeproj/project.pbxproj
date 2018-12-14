@@ -11,6 +11,7 @@
 		585C185121C41D7800C7BA14 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C185021C41D7800C7BA14 /* Reachability.m */; };
 		585C185421C426B700C7BA14 /* ButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C185321C426B700C7BA14 /* ButtonsViewController.m */; };
 		585C185721C439A300C7BA14 /* FingerprintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C185621C439A300C7BA14 /* FingerprintViewController.m */; };
+		585C185D21C43F8A00C7BA14 /* BatteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C185C21C43F8A00C7BA14 /* BatteryViewController.m */; };
 		587D8E2F21C3F866002906A7 /* ModelCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D8E2E21C3F866002906A7 /* ModelCheckViewController.m */; };
 		58C456E121C3EBDE001AF5A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C456E021C3EBDE001AF5A3 /* AppDelegate.m */; };
 		58C456E421C3EBDE001AF5A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C456E321C3EBDE001AF5A3 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 		585C185321C426B700C7BA14 /* ButtonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonsViewController.m; sourceTree = "<group>"; };
 		585C185521C439A300C7BA14 /* FingerprintViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerprintViewController.h; sourceTree = "<group>"; };
 		585C185621C439A300C7BA14 /* FingerprintViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerprintViewController.m; sourceTree = "<group>"; };
+		585C185B21C43F8A00C7BA14 /* BatteryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BatteryViewController.h; sourceTree = "<group>"; };
+		585C185C21C43F8A00C7BA14 /* BatteryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatteryViewController.m; sourceTree = "<group>"; };
 		587D8E2D21C3F866002906A7 /* ModelCheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelCheckViewController.h; sourceTree = "<group>"; };
 		587D8E2E21C3F866002906A7 /* ModelCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelCheckViewController.m; sourceTree = "<group>"; };
 		58C456DC21C3EBDE001AF5A3 /* TfPurchase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TfPurchase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +95,8 @@
 				585C185321C426B700C7BA14 /* ButtonsViewController.m */,
 				585C185521C439A300C7BA14 /* FingerprintViewController.h */,
 				585C185621C439A300C7BA14 /* FingerprintViewController.m */,
+				585C185B21C43F8A00C7BA14 /* BatteryViewController.h */,
+				585C185C21C43F8A00C7BA14 /* BatteryViewController.m */,
 			);
 			path = TfPurchase;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 			files = (
 				585C184E21C4164200C7BA14 /* WifiViewController.m in Sources */,
 				58C456E421C3EBDE001AF5A3 /* ViewController.m in Sources */,
+				585C185D21C43F8A00C7BA14 /* BatteryViewController.m in Sources */,
 				585C185421C426B700C7BA14 /* ButtonsViewController.m in Sources */,
 				58C456EF21C3EBDE001AF5A3 /* main.m in Sources */,
 				58C456E121C3EBDE001AF5A3 /* AppDelegate.m in Sources */,

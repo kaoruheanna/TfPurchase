@@ -44,9 +44,6 @@
     NSLog(@"deviceName: %@", deviceName);
     
     [self.modelLabel setText:deviceName];
-    
-//    NSString *model = [UIDevice currentDevice].model;
-//    NSLog(@"model: %@", model);
 }
 
 - (void)didReceiveMemoryWarning {
